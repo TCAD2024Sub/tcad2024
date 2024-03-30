@@ -1,0 +1,35 @@
+digraph "G" {
+mul0 [label=mul0];
+const1 [label=const1];
+load2 [label=load2];
+mul3 [label=mul3];
+const4 [label=const4];
+load5 [label=load5];
+add6 [label=add6];
+mul7 [label=mul7];
+const8 [label=const8];
+reg0 [label=reg0];
+reg1 [label=reg1];
+reg2 [label=reg2];
+store9 [label=store9];
+add10 [label=add10];
+radd10 [label=radd10];
+const11 [label=const11];
+mul0 -> load2  [key=0];
+const1 -> mul0  [key=0];
+load2 -> add6  [key=0];
+mul3 -> load5  [key=0];
+const4 -> mul3  [key=0];
+load5 -> add6  [key=0];
+add6 -> store9  [key=0];
+mul7 -> reg0  [key=0];
+const8 -> mul7  [key=0];
+reg0 -> reg1  [key=0];
+reg1 -> reg2  [key=0];
+reg2 -> store9  [key=0];
+add10 -> radd10  [key=0];
+add10 -> mul7  [key=0];
+radd10 -> mul0  [key=0];
+radd10 -> mul3  [key=0];
+const11 -> add10  [key=0];
+}

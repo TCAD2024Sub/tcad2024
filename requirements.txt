@@ -1,0 +1,9 @@
+networkx~=3.2.1
+pygraphviz~=1.12
+veriloggen~=2.3.0
+numpy~=1.26.3
+pandas~=1.5.3
+matplotlib~=3.8.2
+Cython~=3.0.8
+pydot~=2.0.0
+pygraph

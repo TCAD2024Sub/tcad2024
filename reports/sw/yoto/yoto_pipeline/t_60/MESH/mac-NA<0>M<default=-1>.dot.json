@@ -1,0 +1,142 @@
+{
+    "graph_name": "mac.dot",
+    "algorithm": "YOTO",
+    "arch_type": "MESH",
+    "total_edges": 11,
+    "visited_edges": 10,
+    "n_copies": 10,
+    "total_threads": 60,
+    "n_cells": 16,
+    "n_lines": 4,
+    "n_columns": 4,
+    "num_annotations": 0,
+    "method": "default",
+    "limiar": "-1",
+    "exec_max_clk": 403,
+    "exec_min_clk": 217,
+    "exec_avg_clk": 303.6,
+    "th_max_clk": 67,
+    "th_min_clk": 14,
+    "th_avg_clk": 33.18333333333333,
+    "nodes_dict": {
+        "mul0": 0,
+        "const1": 1,
+        "load2": 2,
+        "mul3": 3,
+        "const4": 4,
+        "load5": 5,
+        "mul6": 6,
+        "add7": 7,
+        "output8": 8,
+        "add9": 9,
+        "const10": 10
+    },
+    "results": {
+        "best_placement": {
+            "placement": [
+                [
+                    -1,
+                    -1,
+                    4,
+                    10
+                ],
+                [
+                    -1,
+                    5,
+                    3,
+                    9
+                ],
+                [
+                    -1,
+                    6,
+                    2,
+                    0
+                ],
+                [
+                    -1,
+                    7,
+                    8,
+                    1
+                ]
+            ],
+            "th_placement_distances": {
+                "8_7": 1,
+                "7_6": 1,
+                "6_2": 1,
+                "2_0": 1,
+                "0_9": 1,
+                "9_3": 1,
+                "3_4": 1,
+                "3_5": 1,
+                "5_6": 1,
+                "9_10": 1,
+                "0_1": 1
+            },
+            "dist": 0,
+            "thread": "Exec_0_TH_4",
+            "throughput": 99.40357852882704,
+            "path": [
+                "const10",
+                "add9",
+                "mul0",
+                "load2",
+                "mul6",
+                "add7",
+                "output8"
+            ]
+        },
+        "best_throughput": {
+            "placement": [
+                [
+                    -1,
+                    -1,
+                    4,
+                    10
+                ],
+                [
+                    -1,
+                    5,
+                    3,
+                    9
+                ],
+                [
+                    -1,
+                    6,
+                    2,
+                    0
+                ],
+                [
+                    -1,
+                    7,
+                    8,
+                    1
+                ]
+            ],
+            "th_placement_distances": {
+                "8_7": 1,
+                "7_6": 1,
+                "6_2": 1,
+                "2_0": 1,
+                "0_9": 1,
+                "9_3": 1,
+                "3_4": 1,
+                "3_5": 1,
+                "5_6": 1,
+                "9_10": 1,
+                "0_1": 1
+            },
+            "dist": 0,
+            "thread": "Exec_0_TH_4",
+            "throughput": 99.40357852882704,
+            "path": [
+                "const10",
+                "add9",
+                "mul0",
+                "load2",
+                "mul6",
+                "add7",
+                "output8"
+            ]
+        }
+    }
+}
